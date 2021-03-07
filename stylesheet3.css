@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+    background-color: darkturquoise;
+    height: 80px;
+}
+.header-logo {
+    font-style: italic;
+    font-size: 20px;
+    float: left;
+    padding: 30px 40px;
+    font-weight: bold;
+}
+
+.header-list li {
+    float: left;
+    padding: 30px 30px;
+    list-style: none;
+}
+.header-list ul, li, a {
+    color: black;
+} 
+
+.main {
+    background-color: yellow;
+    height: 500px;
+    padding: 20px;
+}
+.copy-container h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center;
+}
+.formulir {
+    padding-top: 5px;
+}
+input[type=text]{
+    width: 100%;
+    
+}
+input[type=email] {
+    width: 100%;
+}
+textarea[name=komentar] {
+    width: 100%;
+}
+button[type=kirim] {
+    width: 100px;   
+    height: 25px;
+}
+.tombol {
+    text-align: center;
+}
+
+.footer {
+    background-color: gray;
+    height: 55px;
+    padding-bottom: 60px;
+}
+.footer-logo {
+    float: left;
+    font-size: 20px;
+    padding: 45px 30px;
+    font-weight: bold;
+}
+.footer-list {
+    float: right;   
+}
+.footer-list li {
+    padding: 5px 50px;
+    list-style: none;
+}
